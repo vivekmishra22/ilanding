@@ -12,9 +12,16 @@ const Hero = () => {
                     <Col md={6}>
                         <Button className='rounded-pill bg-primary-subtle text-primary border-0' variant="primary">
                             <FontAwesomeIcon icon={faGear} className='px-2 bg-primary-subtle' />
-                            Working for your success
+                            <b className='bg-primary-subtle'>Working for your success</b>
                         </Button>
-                        <h1></h1>
+                        <h1 className='text-primary-emphasis fs-1'>Maecenas Vitae <br />
+                            Consectetur Led <br />
+                            <span className='text-primary fs-1'>Vestibulum Ante</span>
+                        </h1>
+                        <p>
+                        Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt.
+                        Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna.
+                        </p>
                     </Col>
                     <Col md={6}>
                         <img className='img-thumbnail border-0' src={HeroImage} alt="" />
