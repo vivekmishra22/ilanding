@@ -6,7 +6,7 @@ const MyNavbar = () => {
         <>
             <Container>
                 <Row>
-                    <Col>
+                    <Col md={12} xs={12} lg={12}>
                         <Navbar expand="lg" className="bg-primary-subtle rounded-pill my-3 px-3 py-2">
                             <Container>
                                 <Navbar.Brand href="#home" className='fs-4'>iLanding</Navbar.Brand>

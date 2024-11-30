@@ -17,7 +17,7 @@ const Hero = () => {
         <>
             <Container className='Hero-background'>
                 <Row className='mt-5'>
-                    <Col md={6}>
+                    <Col xs={12} md={6} lg={6}>
                         <Button className="btn bg-primary-subtle text-primary rounded-pill d-flex align-items-center justify-content-center" variant="">
                             <IoIosSettings className="icon-responsive mx-1" size={24} />
                             <b className='fw-semibold'>Working for your success</b>
@@ -36,7 +36,7 @@ const Hero = () => {
                             <Button variant="white" className='fw-semibold'><FaRegCirclePlay size={24} className='me-2 mx-3' />Get Started</Button>
                         </div>
                     </Col>
-                    <Col md={6} className="d-flex align-items-center justify-content-center">
+                    <Col xs={12} md={6} lg={6} className="d-flex align-items-center justify-content-center">
                         <div className="position-relative">
                             {/* Hero Image */}
                             <Image
@@ -94,7 +94,7 @@ const Hero = () => {
 
                 </Row>
                 <Row className='mt-5 gy-4'>
-                    <Col md={3} className='mb-2'>
+                    <Col xs={12} md={3} lg={3} className='mb-2'>
                         <Card className='border-0'>
                             <Card.Body>
                                 <div className="stat-items d-flex justify-content-center align-items-center">
@@ -109,7 +109,7 @@ const Hero = () => {
                             </Card.Body>
                         </Card>
                     </Col>
-                    <Col md={3} className='mb-2'>
+                    <Col xs={12} md={3} lg={3} className='mb-2'>
                         <Card className='border-0'>
                             <Card.Body className=''>
                                 <div className="stat-items d-flex justify-content-center align-items-center">
@@ -124,7 +124,7 @@ const Hero = () => {
                             </Card.Body>
                         </Card>
                     </Col>
-                    <Col md={3} className='mb-2'>
+                    <Col xs={12} md={3} lg={3} className='mb-2'>
                         <Card className='border-0'>
                             <Card.Body>
                                 <div className="stat-items d-flex justify-content-center align-items-center">
@@ -139,7 +139,7 @@ const Hero = () => {
                             </Card.Body>
                         </Card>
                     </Col>
-                    <Col md={3} className='mb-2'>
+                    <Col xs={12} md={3} lg={3} className='mb-2'>
                         <Card className='border-0'>
                             <Card.Body>
                                 <div className="stat-items d-flex justify-content-center align-items-center">
