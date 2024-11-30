@@ -1,8 +1,32 @@
-.hero-profile{
+*{
+    box-sizing: border-box;
+}
+
+/* .Hero-background{
+    background: linear-gradient(135deg, 
+color-mix(in srgb, var(#0d83fd), transparent 95%) 50%, 
+color-mix(in srgb, var(#0d83fd), transparent 98%) 25%, transparent 50%);
+} */
+
+.hero-profile img, .hero-profile span{
     width: 40px;
+    margin-left: -10px;
     /* border-radius: 25px; */
 }
 
-.hero-profile + img {
-    margin-right: -100;
+.profile-card{
+    bottom: 10px;
+    right: 30px;
+    /* margin-top: 20px; */
+}
+
+.stat-content h1{
+    font-size: 1.25rem;
+    margin-bottom: 0.25rem;
+    font-weight: 600;
+}
+
+.stat-content p{
+    font-size: 0.875rem;
+    margin: 0;
 }
