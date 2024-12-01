@@ -1,6 +1,7 @@
 import React from 'react';
 import { Container, Row, Col, Button, Card, Image } from 'react-bootstrap';
 import '../Assets/Css/hero.css';
+import '../Assets/Css/universal.css';
 import { IoIosSettings } from "react-icons/io";
 import { FaRegCirclePlay } from "react-icons/fa6";
 import { BsTrophy, BsBriefcase, BsAward } from "react-icons/bs";
@@ -19,8 +20,8 @@ const Hero = () => {
                 <Row className='mt-5'>
                     <Col xs={12} md={6} lg={6}>
                         <Button className="btn bg-primary-subtle text-primary rounded-pill d-flex align-items-center justify-content-center" variant="">
-                            <IoIosSettings className="icon-responsive mx-1" size={24} />
-                            <b className='fw-semibold'>Working for your success</b>
+                            <IoIosSettings className="icon-responsive mx-1 bg-primary-subtle" size={24} />
+                            <b className='fw-semibold bg-primary-subtle'>Working for your success</b>
                         </Button>
                         <h1 className='text-primary-emphasis mt-5 display-4 fw-semibold'>
                             Maecenas Vitae <br />
