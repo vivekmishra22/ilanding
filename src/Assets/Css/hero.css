@@ -6,6 +6,10 @@ color-mix(in srgb, var(#0d83fd), transparent 95%) 50%,
 color-mix(in srgb, var(#0d83fd), transparent 98%) 25%, transparent 50%);
 } */
 
+.hero-background{
+    background-color: #eff5fb;
+}
+
 .hero-profile img, .hero-profile span{
     width: 40px;
     margin-left: -10px;

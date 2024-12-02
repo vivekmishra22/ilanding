@@ -1,15 +1,16 @@
 import React from 'react';
 import '../Assets/Css/MyNavbar.css';
+import '../Assets/Css/hero.css';
 import { Container, Row, Col, Nav, Navbar, NavDropdown, Dropdown, Button } from 'react-bootstrap'
 
 const MyNavbar = () => {
     return (
         <>
+            <Container fluid className='hero-background'>
             <Container>
-                <Row>
+                <Row className=''>
                     <Col md={12} xs={12} lg={12}>
-                        <div className="header">
-                            
+                        <div className="header">                            
                             <Navbar expand="lg" variant='white' className="bg-white text-dark rounded-pill my-3 px-3 py-1 custom-navbar d-flex justify-content-center align-items-center">
                                 <Container className='bg-white d-flex justify-content-between'>
                                     <Navbar.Brand href="#home" className='fs-4 bg-white '>iLanding</Navbar.Brand>
@@ -49,6 +50,7 @@ const MyNavbar = () => {
                     </Col>
                 </Row>
 
+            </Container>
             </Container>
         </>
     )
