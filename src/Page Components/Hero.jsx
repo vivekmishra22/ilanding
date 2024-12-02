@@ -95,7 +95,7 @@ const Hero = () => {
                         </Col>
 
                     </Row>
-                    <Row className='mt-5 gy-4'>
+                    <Row className='pb-5 gy-4'>
                         <Col md={12}>
                             <Card className='border-0'>
                                 <Card.Body>
@@ -115,7 +115,7 @@ const Hero = () => {
                                                 </Card.Body>
                                             </Card>
                                         </Col>
-                                        <Col xs={12} md={3} lg={3} className='mb-2'>
+                                        <Col xs={12} md={3} lg={3} className=''>
                                             <Card className='border-0'>
                                                 <Card.Body className=''>
                                                     <div className="stat-items d-flex justify-content-center align-items-center">
@@ -130,7 +130,7 @@ const Hero = () => {
                                                 </Card.Body>
                                             </Card>
                                         </Col>
-                                        <Col xs={12} md={3} lg={3} className='mb-2'>
+                                        <Col xs={12} md={3} lg={3} className=''>
                                             <Card className='border-0'>
                                                 <Card.Body>
                                                     <div className="stat-items d-flex justify-content-center align-items-center">
@@ -145,7 +145,7 @@ const Hero = () => {
                                                 </Card.Body>
                                             </Card>
                                         </Col>
-                                        <Col xs={12} md={3} lg={3} className='mb-2'>
+                                        <Col xs={12} md={3} lg={3} className=''>
                                             <Card className='border-0'>
                                                 <Card.Body>
                                                     <div className="stat-items d-flex justify-content-center align-items-center">

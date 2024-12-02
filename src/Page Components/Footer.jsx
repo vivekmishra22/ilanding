@@ -1,26 +1,33 @@
 import React from 'react';
-import { Container, Row, Col, ListGroup } from 'react-bootstrap';
+import { Container, Row, Col } from 'react-bootstrap';
+import '../Assets/Css/footer.css';
+import { RiTwitterXLine, RiFacebookCircleFill, RiInstagramLine, RiLinkedinBoxFill } from "react-icons/ri";
 
 const Footer = () => {
     return (
         <>
-            <Container>
+            <Container className='py-3'>
                 <Row>
                     <Col md={4}>
-                        <ListGroup variant="flush">
-                            <span class="sitename">iLanding</span>
-                            <ListGroup.Item className='border-0'>A108 Adam Street</ListGroup.Item>
-                            <ListGroup.Item className='border-0'>New York, NY 535022</ListGroup.Item>
-                            <ListGroup.Item className='border-0'><strong>Phone:</strong> <span>+1 5589 55488 55</span></ListGroup.Item>
-                            {/* <ListGroup.Item className='border-0'><strong>Phone:</strong> <span>+1 5589 55488 55</span></ListGroup.Item> */}
-                            <ListGroup.Item className='border-0'><strong>Email:</strong> <span>info@example.com</span></ListGroup.Item>
-                            {/* <ListGroup.Item className='border-0'><strong>Email:</strong> <span>info@example.com<</ListGroup.Item> */}
-                        </ListGroup>
-                        <div class="social-links d-flex mt-4">
-                            <a href=""><i class="bi bi-twitter-x"></i></a>
-                            <a href=""><i class="bi bi-facebook"></i></a>
-                            <a href=""><i class="bi bi-instagram"></i></a>
-                            <a href=""><i class="bi bi-linkedin"></i></a>
+                        <span className='footer-heading fw-semibold text-dark'>iLanding</span>
+
+                        <div class="footer-contact pt-3">
+                            <p className='mb-1'>A108 Adam Street</p>
+                            <p>New York, NY 535022</p>
+                            <p class="mt-3 mb-1">
+                                <strong className='fw-bolder'>Phone:</strong>
+                                <span>+1 5589 55488 55</span>
+                            </p>
+                            <p>
+                                <strong>Email:</strong>
+                                <span>info@example.com</span>
+                            </p>
+                        </div>
+                        <div class="social-links d-flex mt-4 gap-2 fs-5">
+                            <a href="#" className='d-flex align-items-center justify-content-center border rounded-circle text-dark p-2'><RiTwitterXLine /></a>
+                            <a  href="#" className='d-flex align-items-center justify-content-center border rounded-circle text-dark p-2'><RiFacebookCircleFill /></a>
+                            <a  href="#" className='d-flex align-items-center justify-content-center border rounded-circle text-dark p-2'><RiInstagramLine /></a>
+                            <a  href="#" className='d-flex align-items-center justify-content-center border rounded-circle text-dark p-2'><RiLinkedinBoxFill /></a>
                         </div>
                     </Col>
                     <Col md={2}>
@@ -67,10 +74,10 @@ const Footer = () => {
                 <hr />
                 <Row>
                     <div className="copyright text-center">
-                    <p>© <span>Copyright</span> <strong class="px-1 sitename">iLanding</strong> <span>All Rights Reserved</span></p>
-                    <div class="credits">
-                        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
-                    </div>
+                        <p>© <span>Copyright</span> <strong class="px-1 sitename">iLanding</strong> <span>All Rights Reserved</span></p>
+                        <div class="credits">
+                            Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+                        </div>
                     </div>
                 </Row>
             </Container>
